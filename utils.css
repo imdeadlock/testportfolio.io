@@ -1,0 +1,140 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page{
+  display: grid;
+  grid-template-rows: 10vh 45vh 45vh;
+}
+.blog{
+  display: grid;
+  grid-template-rows: 10vh 75vh;
+}
+.center-grid-self {
+  justify-self: center;
+  align-self: center;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: grid;
+  align-items: center;
+  grid-template-rows: 10vh;
+  grid-template-columns: 100vw;
+  background-color: rgb(227, 227, 227);
+  color: black;
+}
+
+.header-container h1 {
+  color: black;
+  position: absolute;
+  left: 10vw;
+}
+
+.four-grid-container {
+  display: grid;
+  grid-template-rows: 45vh 45vh;
+  grid-template-columns: 50vw 50vw;
+}
+
+.space-mono-font {
+  font-family: 'Space Mono', monospace;
+}
+
+.btn-prop {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1;
+  
+}
+
+.btn-prop:hover {
+  transform: scale(1.05);
+  background-color: black;
+  font-weight: bolder;
+}
+
+.social-img:hover {
+  transform: scale(1.3);
+}
+
+.fg {
+  display: grid;
+  grid-template-columns: 25vw;
+  color: black;
+  justify-content: center;
+  align-content: center;
+}
+
+.skills-heading {
+  justify-self: center;
+  font-size: 32px;
+}
+
+.pro-icon {
+  height: 56px;
+}
+
+.card1 {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  background-color: aqua;
+  color: black;
+  border-radius: 3%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.read-more {
+  color: turquoise;
+}
+
+.content {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  background-color: aqua;
+  color: black;
+  border-radius: 3%;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: 'Space Mono', sans-serif;
+  font-size: 16px;
+}
+
+.list-item:hover {
+  transform: scale(1.1);
+  font-weight: bolder;
+
+}
+
+.chat:hover {
+  transform: scale(1.1);
+}
+
+nav .logo-container .logo-img:hover {
+  transform: scale(1.1);
+}

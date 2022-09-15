@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 10%;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  position: absolute;
+  left: 10%;
+}
+
+.logo-img {
+  height: 30px;
+}
+
+.nav-items {
+  display: flex;
+  width: 30%;
+  position: absolute;
+  right: 20rem;
+  justify-content: space-evenly;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 90vh;
+}
+
+.home1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 50%;
+}
+
+.pro {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  height: 35vh;
+  width: auto;
+}
+.profile{
+  height: 35vh;
+  position: relative;
+}
+.info{
+  text-align: center;
+  color: black;
+  width: fit-content;
+  align-self: center;
+}
+.email-btn{
+  position: absolute;
+  top:30rem;
+}
+.resume-btn{
+  position: absolute;
+  top:30rem;
+  left: 50rem;
+}
+.port-btn{
+  position: absolute;
+  top:30rem;
+  left: 73rem;
+}
+.btns1{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
+  align-items: center;
+  height: 10vh;
+}
+.btn {
+  /* justify-self: center; */
+  align-self: center;
+
+}
+.social-img{
+  transition: all 0.1s ease-in-out 0s;
+  height: 30px;
+}
+.social-list{
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 25rem;
+  transition: transform .1s;
+}
+.home2 {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: #edf0f2;
+  color: black;
+  height: 100%;
+  width: 50%;
+}
+.about{
+  position: absolute;
+  top:10rem;
+  text-align: center;
+}
+.description{
+  width: 40vw;
+  height: 10vh;
+  text-align: justify;
+}
+.btns{
+  display: grid;
+  grid-template-columns: 20vw 2vw 20vw;
+}
+.project1 {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  background-color: grey;
+  color: black;
+  justify-content:space-evenly;
+}
+
+.project2 {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  background-color: red;
+  color: black;
+  justify-content:space-evenly;
+}
+
+.project3 {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  background-color: blue;
+  color: black;
+  justify-content:space-evenly;
+}
+
+.project4 {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  background-color: green;
+  color: black;
+  justify-content:space-evenly;
+}
+.skills {
+  display: grid;
+  grid-template-rows: 10vh 5vh 85vh;
+  background-color: white;
+  color: black;
+}
+.ab .h2{
+  display: inline-flex;
+  color: black;
+}
+.fgb{
+  display: grid;
+  grid-template-rows: 42.5vh 42.5vh;
+  grid-template-columns: 50vw 50vw;
+}
+.temp{
+  display: grid;
+  grid-template-rows: 8vh 10vh 10vh;
+  height: 28vh;
+}
+.icons{
+  justify-content: space-evenly;
+  justify-self: center;
+}
+.tex{
+  justify-self: center;
+}
+.blog {
+  display: grid;
+  grid-template-rows: 10vh 70vh;
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+.blogs{
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  justify-content: space-evenly;
+}
+.card{
+  display: grid;
+  height:55vh;
+  grid-template-rows: 30vh 5vh;
+  border-radius: 3%;
+  align-self: center;
+}
+.imgs{
+  height: 30vh;
+  width: 20vw;
+  border-radius: 3%;
+}
+.text{
+  display: grid;
+  grid-template-rows: 5vh 5vh;
+}
+.text p{
+  position: absolute;
+  left: 8vw;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 10vw 5vw;
+  background-color: black;
+  color: white;
+  height: 15vh;
+  width: 100vw;
+  z-index: 1;
+  bottom: 0;
+}
+.footer {
+  font-family: 'Space Mono', sans-serif;
+}
+.cont{
+  display: inline-flex;
+  height: 5vh;
+  /* background-color: aqua; */
+  font-family: 'Space Mono', sans-serif;
+  position: absolute;
+  left: 5%;
+  
+}
+.telegram{
+  height: 2rem;
+  align-self: center;
+  
+}
+.chat{
+  display: inline-flex;
+  height: 2rem;
+  color: white;
+  justify-content: center;
+  align-self: center;
+  align-items:flex-end;
+  font-size: 1.2rem;
+}
